@@ -156,15 +156,78 @@
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          #  - read:user
+          #  - read:org
+          #  - public_repo
+          #  - read:project
+          # The following additional scopes may be required:
+          #  - read:org      (for organization related metrics)
+          #  - read:user     (for user related data)
+          #  - read:packages (for some packages related data)
+          #  - repo          (optional, if you want to include private repositories)
+          token: ${{ secrets.METRICS_TOKEN }}
 
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=V1uk&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false&order=1&custom_title=V1uk%20Stats" height="250" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=V1uk&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=V1uk&custom_title=V1uk%20Activity%20Graph&theme=tokyo-night&area=true" height="150" alt="activity-graph graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=V1uk&theme=tokyonight&row=1&margin-w=4&no-bg=true&no-frame=false&margin-h=0" height="150" alt="trophy graph"  />
-</div>
+          # Options
+          user: BryceGGs
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/New_York
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          plugin_fortune: yes
+          plugin_habits: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          plugin_projects: yes
+          plugin_projects_descriptions: yes
+          plugin_projects_limit: 4
+          plugin_projects_repositories: StyzTeam/Styz
+          plugin_sponsors: yes
+          plugin_sponsors_sections: goal, list, about
+          plugin_sponsors_size: 24
+          plugin_sponsors_title: Sponsor Me!
+          plugin_wakatime: yes
+          plugin_wakatime_days: 7
+          plugin_wakatime_limit: 5
+          plugin_wakatime_repositories_visibility: all
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_url: https://wakatime.com
+          plugin_wakatime_user: current
 
 ###
