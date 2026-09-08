@@ -12,9 +12,8 @@
 
 ###
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=V1uk.V1uk&"  />
-</div>
+![Vistors](https://stats.pphat.top/badges?username=BryceGGs&name=visitors&theme=galaxy&effect=glow&size=small)
+![Contributions](https://stats.pphat.top/badges?username=BryceGGs&name=total-contributors&theme=default&effect=none&size=small)
 
 ###
 
@@ -158,7 +157,6 @@
 
 ![GitHub Stats](https://stats.pphat.top/stats?username=BryceGGs&avatar_mode=radar&theme=default&data_border_style=frame)
 ![Top Languages](https://stats.pphat.top/languages?username=BryceGGs&type=card&show_info=true&theme=default)
-![Contributions](https://stats.pphat.top/badges?username=BryceGGs&name=total-contributors&theme=default&effect=none&size=small)
 ![Graph](https://stats.pphat.top/graph?username=BryceGGs&theme=galaxy&size=default&show_title=true&show_total_contribution=true&show_background=true&animate=pulse)
 
 ###
