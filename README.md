@@ -11,8 +11,8 @@
 </div>
 
 ###
-                                                  ![Vistors](https://stats.pphat.top/badges?username=BryceGGs&name=visitors&theme=galaxy&effect=glow&size=small)
-                                                  ![Contributions](https://stats.pphat.top/badges?username=BryceGGs&name=total-contributors&theme=default&effect=none&size=small)
+  ![Vistors](https://stats.pphat.top/badges?username=BryceGGs&name=visitors&theme=galaxy&effect=glow&size=small)
+  ![Contributions](https://stats.pphat.top/badges?username=BryceGGs&name=total-contributors&theme=default&effect=none&size=small)
 ###
 
 <h1 align="center">hey there 👋</h1>
