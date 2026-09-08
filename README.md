@@ -156,9 +156,9 @@
 
 ###
 
-![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=BryceGGs)
-![Top Languages](https://git-hub-stats-card-generator.vercel.app/api/svg?username=BryceGGs&type=languages)
-![Contributions](https://git-hub-stats-card-generator.vercel.app/api/svg?username=BryceGGs&type=contributions)
-![Top Repos](https://git-hub-stats-card-generator.vercel.app/api/svg?username=BryceGGs&type=top-repos)
+![GitHub Stats](https://stats.pphat.top/stats?username=BryceGGs&avatar_mode=radar&theme=default&data_border_style=frame)
+![Top Languages](https://stats.pphat.top/languages?username=BryceGGs&type=card&show_info=true&theme=default)
+![Contributions](https://stats.pphat.top/badges?username=BryceGGs&name=total-contributors&theme=default&effect=none&size=small)
+![Graph](https://stats.pphat.top/graph?username=BryceGGs&theme=galaxy&size=default&show_title=true&show_total_contribution=true&show_background=true&animate=pulse)
 
 ###
